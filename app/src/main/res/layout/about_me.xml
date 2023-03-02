@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383D40"
+    tools:context=".AboutMe">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="418dp"
+        android:layout_height="242dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lqgallogo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="487dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.5">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans_semibold"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:paddingRight="15dp"
+                android:paddingBottom="25dp"
+                android:text="Name: Vedant Singh\n\nAge: 20 years\n\nOccupation: Student\n\nHobbies: Coding, Creating, Boxing, Chess.\n\nLocation: Pune, India\n\nCourse: B.Tech in Computer Engineering\n\nLearning Experiences through Opportunities:\n• Creative Writing and Proof Reading Freelancing: Helped me put my good writing and grammar skills to use, learning alot about customer satisfaction.\n• Boxing: Helped me develop my leadership skills and taught me to work in teams throughout the training regime.\n• Creativity and Media Head in Two College Clubs: Helped me learn about leadership and how things work in the business and publicity world.\n\nPersonal Message: I am not sure what I will be doing for your esteemed organization, but I am very damn sure that I will find a way to make things work, I am a self learner, that is how I have learned to make apps and am writing this in an Android application. My skills and my moral, will be very visible when you see me working a way out of things, even when sometimes I have been forced to start from scratch and solve big problems.\n\nWhy Open Source?\nOpen Source Contributions provide a way for me to gain beautiful learning experiences along the way, giving me a sense of accomplishment and the end of the day. I mean, that's all we want right? Sleeping at night with a feeling of accomplishment, like you have had a very productive day and worked very hard.\nThe experiences you get, the people you work with, the new projects you work on, which may be revolutionary at times, so contributing the best of your knowledge to that project for a fruitful result, is why I do what I do."
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constrainedWidth="true" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
