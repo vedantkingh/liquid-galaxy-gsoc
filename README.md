@@ -1,7 +1,7 @@
 # GSoC Sample Application
 
 This is a simple Android application I made to complete task 3.2 of the preselection requirements of Liquid Galaxy for GSoC 2023 created using Android Studio.
-I have used Java and XML for this app.
+I have used Java for this app.
 It has 4 buttons and the Liquid Galaxy logo as it's icon as well as in several places inside the application.
 ## How to use
 The usage of the app is pretty simple to figure out, on the homescreen, you will be able to see the Liquid Galaxy logo, the Google Summer of Code logo, and 4 buttons.
